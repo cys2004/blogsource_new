@@ -103,7 +103,7 @@ comments:
   # 故未对其它评论系统进行较好的适配
   # 如果你在使用其它评论系统时遇到功能或样式 bug，而该评论系统在原 Stellar 主题中正常工作
   # 请提交 issue 反馈
-  service: twikoo # beaudar, utterances, giscus, valine, twikoo, waline, artalk
+  service: waline # beaudar, utterances, giscus, valine, twikoo, waline, artalk
 
   # 在 404 页是否显示评论区？
   enabled_in_404: false
@@ -182,7 +182,7 @@ comments:
     js: https://unpkg.com/@waline/client@v2/dist/waline.js
     css: https://unpkg.com/@waline/client@v2/dist/waline.css
     # Waline 服务器地址
-    serverURL:
+    serverURL: https://waline.tcea.top
 
     ### 以下配置可能 **已经过时**。请参考 Waline 官方文档。
 
@@ -244,15 +244,15 @@ footer:
     github:
       icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
       url: 'https://github.com/cys2004/'
-    # music:
-    #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
-    #   url: /
-    # unsplash:
-    #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
-    #   url: /
-    # comments:
-    #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
-    #   url: /about/#comments
+    music:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+      url: /
+    unsplash:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
+      url: /
+    comments:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
   sitemap:
     ### 页脚网站地图按钮（使用 Markdown 语法）
     '博客':
