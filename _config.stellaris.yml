@@ -517,7 +517,7 @@ inject:
   # head:
   #   # 使用 HTML 语法
   #   - '<meta name="key" content="value"></meta>'
-  #   - '<link rel="stylesheet" href="/css/1.css"></link>'
+  #   - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link>'
   # 由于 Stylus 的特性，暂不支持 inject CSS
   # 如果要使用自定义 CSS，请在 _source/css 下创建 css 文件
   # 之后使用上文的 head 来引入
